@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="accueil.css">
+    <title>Tickethack page d'accueuil</title>
+</head>
+<body>
+    <nav>
+        <div class="navbarhorizontal">
+            <div class="left">
+                <div class="logo"><a href="indexaccueil.html" style= "color: #459E85; text-decoration: none">Tickethack</a></div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li class="listnavhorizontal"><a href="cart.html" style="text-decoration: none; color:black">Cart</a></li>
+                    <li class="listnavhorizontal"><a href="booking.html" style="text-decoration: none; color:black">Booking</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1>Explore the world effortlessly by train!</h1>
+    <h4>Compare, book and enjoy cheap price for train tickets: your journey starts on Tickethack</h4>
+    <div class="container">
+        <div class="block">
+            <div class="searchTrip">
+                <label for="champ1"></label>
+                    <input type="text" id="champ1" name="champ1" placeholder="Departure" style="color: black;">
+            </div>
+            <div class="searchTrip">
+                <label for="champ2"></label>
+                    <input type="text" id="champ2" name="champ2" placeholder="Arrival" style="color: black;">
+            </div>
+            <div class="searchTrip">
+                <label for="champ3"></label>
+                    <input type="date" id="champ3" name="champ3">
+            </div>
+                <button type="submit">search</button>
+        </div>
+        
+        <div class="block">
+            <div class="resultSearch">
+                <img src="./images/train.png" alt="train" class="blocImage">
+                <p>It's time to book your future trip.</p>
+            </div>
+        </div>
+    </div>
+    <script src="accueil.js"></script>
+</body>
+</html>
